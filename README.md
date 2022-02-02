@@ -12,7 +12,7 @@ Agencies that use AlayaCare have a wealth of unstructured visit notes stored on 
 
  You must have [python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) installed first. This project relies on several libraries:
  
-[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for extracting text from HTML and [smart-open](https://pypi.org/project/smart-open/) with [Boto3](https://aws.amazon.com/sdk-for-python/?nc=hl&pg=gs&p=s3) to read S3 buckets. To pre-process the notes, [nltk](https://www.nltk.org/install.html) must be installed using: 
+[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for extracting text from HTML and [smart-open](https://pypi.org/project/smart-open/) with [Boto3](https://aws.amazon.com/sdk-for-python/?nc=hl&pg=gs&p=s3) to read S3 buckets. To pre-process the notes, [nltk](https://www.nltk.org/install.html) must be installed. 
 
 You can install both dependencies by using:
 
