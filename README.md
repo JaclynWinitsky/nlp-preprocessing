@@ -29,7 +29,7 @@ python -m nltk.downloader stopwords
 To run, use: 
 
 ```
-python clean_data.py --source <path> --destination <path>
+python clean_data.py --source <path or s3 url> --destination <path>
 ```
 
 ### Arguments:
@@ -44,3 +44,7 @@ You can get help by using:
 ```
 python clean_data.py -h
 ```
+
+## Pre-processing Features
+
+The hand-crafted features from the notes were displaying the note without punctuation, and removing the stopwords from the notes. Removing stopwords was a good idea since they often do not contribute much to the information in the sentences. This feature involved some extra steps, including tokenization, which would break the note up into an array of the individual words, while also removing punctuation. For each note, the array of words (without stopwards) was then displayed in the csv file, displaying a more efficient way to extract the important information from the notes. 
